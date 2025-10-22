@@ -114,7 +114,6 @@ fun DetailScreen(
     }
 }
 
-// --- Detail Content Composable --- (Handles Requirement 1 & 2)
 @Composable
 private fun DetailContent(item: FeedItemData, scrollState: ScrollState) {
     Column(

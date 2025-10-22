@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Permissions needed for network operations (like image/video loading) -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -16,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Media">
 
-        <!-- FIX: Changed android:name=".A" to the correct class name: ".MainActivity" -->
         <activity
             android:name=".login.LoginActivity"
             android:exported="true"

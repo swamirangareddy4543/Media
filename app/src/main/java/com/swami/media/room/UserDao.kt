@@ -1,7 +1,5 @@
 package com.swami.media.room
 
-// This file contains the Data Access Object for User Entity operations.
-
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy

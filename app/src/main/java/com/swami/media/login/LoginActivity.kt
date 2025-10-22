@@ -26,7 +26,6 @@ class LoginActivity : ComponentActivity() {
     }
 }
 
-// Define routes
 sealed class Screen(val route: String) {
     object Auth : Screen("auth_screen")
     object Feed : Screen("feed_screen")
@@ -40,7 +39,7 @@ fun AppNavigation() {
     val navController = rememberNavController()
     val viewModel: LoginViewModel = hiltViewModel()
 
-    // ✅ Automatically skip login if user already logged in
+    // Automatically skip login if user already logged in
     val startDestination = if (viewModel.isUserLoggedIn()) {
         Screen.Feed.route
     } else {

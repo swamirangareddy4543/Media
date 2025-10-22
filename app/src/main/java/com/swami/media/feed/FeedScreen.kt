@@ -23,7 +23,7 @@ import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.swami.media.data.FeedItemData
 import com.swami.media.login.Screen
-import com.swami.media.login.LoginViewModel // <-- Add this import if using same ViewModel for auth
+import com.swami.media.login.LoginViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

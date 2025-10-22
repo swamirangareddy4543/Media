@@ -1,6 +1,5 @@
 package com.swami.media.data
 
-import com.swami.media.R
 
 data class FeedItemData(
     val id: Long,
@@ -30,8 +29,28 @@ fun getMockFeedItems(): List<FeedItemData> {
             mediaItems = listOf(
                 MediaItem(
                     "m3",
-                    "https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif",
+                    "https://media.istockphoto.com/id/2211042706/photo/tractor-fertilizing-verdant-agricultural-field-during-golden-sunset.webp?a=1&b=1&s=612x612&w=0&k=20&c=Gu3PE3beJRYzN954Eae7Xh7wDxM6lfehkHxxpXZ4L4c=",
                     MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1559884743-74a57598c6c7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGFncmljdWx0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://plus.unsplash.com/premium_photo-1661808770389-30a3ed35b7fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGFncmljdWx0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m4",
+                    "https://media.istockphoto.com/id/184819009/video/combine-harvesting-corn-for-silage.mp4?s=mp4-640x640-is&k=20&c=qheZVwWZz4Tw_Y2LQk98N23axyYQkC-cX9lPFb3PIdI=",
+                    MediaType.VIDEO
                 )
             )
         ),
@@ -43,8 +62,28 @@ fun getMockFeedItems(): List<FeedItemData> {
             mediaItems = listOf(
                 MediaItem(
                     "m3",
-                    "https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif",
+                    "https://images.unsplash.com/photo-1589876568181-a1508b8ef473?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                     MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1723540561785-6e428f03a3e4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQyfHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1558289282-647de9fdf608?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzc2fHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1709534004784-d8c6455d03dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDI0fHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m4",
+                    "https://media.istockphoto.com/id/1387179891/video/tractor-spraying-soybean-plantation-in-brazil.mp4?s=mp4-640x640-is&k=20&c=TJkTfFoWERZI-DsMYXvi515l55o_spTNSSjL5YEr29E=",
+                    MediaType.VIDEO
                 )
             )
         ),
@@ -56,8 +95,28 @@ fun getMockFeedItems(): List<FeedItemData> {
             mediaItems = listOf(
                 MediaItem(
                     "m3",
-                    "https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif",
+                    "https://images.unsplash.com/photo-1580982327559-c1202864eb05?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGFncmljdWx0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                     MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1566218246241-934ad8b38ea6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEwfHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1709532390940-5c09fcdf098d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg4fHxhZ3JpY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://media.istockphoto.com/id/2224548406/photo/tractor-preparing-ground-for-seeding.webp?a=1&b=1&s=612x612&w=0&k=20&c=l_LYNYZ4zRV2SbmheJRVOyFUOxWY2Gr_lk8g2DjlTIU=",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m4",
+                    "https://media.istockphoto.com/id/1305087489/video/agriculture-drone-fly-to-sprayed-fertilizer-on-the-rice-field.mp4?s=mp4-640x640-is&k=20&c=YgorSU5dffESoTCI2YKyRxgb2kxdi1saTb_fqSYz0y8=",
+                    MediaType.VIDEO
                 )
             )
         ),
@@ -69,8 +128,28 @@ fun getMockFeedItems(): List<FeedItemData> {
             mediaItems = listOf(
                 MediaItem(
                     "m3",
-                    "https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif",
+                    "https://plus.unsplash.com/premium_photo-1661962692059-55d5a4319814?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974",
                     MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWdyaWN1bHR1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFncmljdWx0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m3",
+                    "https://media.istockphoto.com/id/2224548406/photo/tractor-preparing-ground-for-seeding.webp?a=1&b=1&s=612x612&w=0&k=20&c=l_LYNYZ4zRV2SbmheJRVOyFUOxWY2Gr_lk8g2DjlTIU=",
+                    MediaType.IMAGE
+                ),
+                MediaItem(
+                    "m4",
+                    "https://media.istockphoto.com/id/1397019394/video/camera-moves-over-the-ground-after-rain.mp4?s=mp4-640x640-is&k=20&c=BEjEWLekfrjLlE6yNRhCpdLSSJIjrfZiVnR_Jo44qwk=",
+                    MediaType.VIDEO
                 )
             )
         )

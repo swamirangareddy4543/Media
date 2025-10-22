@@ -9,12 +9,6 @@ import javax.inject.Inject
 
 class LoginRepository @Inject constructor(private val userDao: UserDao) {
 
-    /**
-     * Attempts to register a new user.
-     * @param username The user's chosen username.
-     * @param plainPassword The user's plain text password.
-     * @return Result of the registration: Long (new user ID) or null on failure.
-     */
     suspend fun registerUser(username: String, plainPassword: String): Long? = withContext(Dispatchers.IO) {
         if (userDao.isUsernameTaken(username)) {
             return@withContext null // Username already exists
@@ -37,12 +31,6 @@ class LoginRepository @Inject constructor(private val userDao: UserDao) {
         }
     }
 
-    /**
-     * Attempts to log in a user by verifying credentials.
-     * @param username The user's input username.
-     * @param plainPassword The user's input plain text password.
-     * @return The UserEntity if login is successful, or null on failure.
-     */
     suspend fun loginUser(username: String, plainPassword: String): UserEntity? = withContext(Dispatchers.IO) {
         val storedUser = userDao.getUserByUsername(username) ?: return@withContext null
         val isPasswordCorrect = AuthUtils.verifyPassword(
